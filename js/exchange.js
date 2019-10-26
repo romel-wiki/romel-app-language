@@ -28,6 +28,19 @@ switch (GLOBAL.userData.groupArea) {
       batchReport: '使用批量上報工具'
     };
     break;
+    
+  // Korean
+  case 3:
+    GLOBAL.language.theName = {
+      rule: '<p>불포함 아이템：</p><ul><li>킹 포링 제작 카드</li><li>NPC 제작 장비</li></ul><p>상세 보기<a data-app="1" href="' + GLOBAL.url.view + '/article/detail.html?id=33">《거래소 기능 사용 설명서》</a></p>',
+      lastPrice: '최신 가격',
+      maxPrice: '최근 상한가',
+      minPrice: '최근 하한가',
+      reportPrice: '현재가 제보',
+      reportNote: '<p>※ 제보 자료가 맞는지 다시 한 번 확인해주세요. 허위 제보시 제보 권한을 박탈할 수 있습니다.</p>',
+      batchReport: '가격 일괄 제보'
+    };
+    break;
 
   // Japanese
   case 6:
