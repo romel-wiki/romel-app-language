@@ -45,6 +45,25 @@ switch (GLOBAL.userData.groupArea) {
       'gemBuff': '增益屬性符文'
     };
     break;
+    
+  // Korean
+  case 3:
+    GLOBAL.language.theName = {
+      jobT1: '1차 전직',
+      jobT2: '2차 전직',
+      jobA2: '3차 전직',
+      jobPeak: '3차 초월',
+      jobT3: '4차 전직',
+      tipChooseJob: '직업을 선택해주세요',
+
+      aboutMore: '<a data-app="1"  class="button green radius" href="' + GLOBAL.url.view + '/tool/skill.html">스킬 시뮬레이터</a>',
+      runeNote: '<p>아스신의 비석 시뮬레이터：<a class="link blue" href="https://romelde.github.io/RuneBFS/" target="_blank">*β*ROMEL Rune BFS</a></p><p style="color:#aaa;">※ PC 브라우저를 이용해주세요.</p>',
+
+      'gemAtk': '공격 스탯 룬',
+      'gemDef': '방어 스탯 룬',
+      'gemBuff': '특수 스탯 룬'
+    };
+    break;
 
   // Japanese
   case 6:

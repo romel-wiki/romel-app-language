@@ -16,6 +16,13 @@ switch (GLOBAL.userData.groupArea) {
       score: '分數'
     };
     break;
+    
+  // Korean
+  case 3:
+    GLOBAL.language.theName = {
+      score: '평점'
+    };
+    break;
 
   // Japanese
   case 6:

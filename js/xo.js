@@ -16,6 +16,13 @@ switch (GLOBAL.userData.groupArea) {
       searchPlaceholder: '快速查找（支持拼音）'
     };
     break;
+    
+  // Korean
+  case 3:
+    GLOBAL.language.theName = {
+      searchPlaceholder: '검색'
+    };
+    break;
 
   // Japanese
   case 6:

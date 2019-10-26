@@ -41,6 +41,24 @@ switch (GLOBAL.userData.groupArea) {
       workUnlock: '解鎖條件',
       workLimit: '不可參與',
     };
+    
+  // Korean
+  case 3:
+    GLOBAL.language.theName = {
+      catchItem: '포획 아이템',
+      compose: '펫 융합',
+      minLevel: '요구레벨',
+      unit: '마리',
+
+      adventureArea: '모험구역',
+      adventureBox: '상자조건',
+      adventureDispatch: '최대파견',
+
+      workFrequency: '작업효율',
+      workMaxReward: '최대보상',
+      workUnlock: '해제조건',
+      workLimit: '작업불가',
+    };
 
   // Japanese
   case 6:

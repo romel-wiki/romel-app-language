@@ -30,6 +30,20 @@ switch (GLOBAL.userData.groupArea) {
       reportNote: '<p>※ 請確保回報資料準確，每條回報系統都會記錄，一經發現持續發佈虛假資料，有權撤銷回報權限。</p>'
     };
     break;
+    
+  // Korean
+  case 3:
+    GLOBAL.language.theName = {
+      itemPurple: '보라색 재료 (보스)',
+      itemBlue: '파란색 재료 (고급)',
+      cardBlue: '파란색 카드',
+      cardGreen: '녹색 카드',
+      cardWhite: '하얀색 카드',
+      cardSpecial: '기타 카드',
+      reportIntro: '<p>1. 먼저 위에서 양식을 선택해주세요. 사용 방법：<a data-app="1" class="link red" href="' + GLOBAL.url.view + '/article/detail.html?id=78&backurl=' + GLOBAL.url.view + '/exchange/report.html">《거래소 일괄 갱신 소개》</a>；</p><p>2. 아이템의 단가를 입력해주세요；갱신하지 않을 아이템은 빈 칸으로 둡니다.</p>',
+      reportNote: '<p>※ 제보 자료가 맞는지 다시 한 번 확인해주세요. 허위 제보시 제보 권한을 박탈할 수 있습니다.</p>'
+    };
+    break;
 
   // Japanese
   case 6:

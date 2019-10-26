@@ -108,6 +108,60 @@ switch (GLOBAL.userData.groupArea) {
       articleMore: '瀏覽更多攻略'
     };
     break;
+    
+  // Korean
+  case 3:
+    GLOBAL.language.homeTitle = {
+      achievement: '업적',
+      activitie: '이벤트',
+      attrPoint: '스탯 시뮬레이터',
+      being: '호문클루스',
+      broadcast: '방송',
+      card: '카드',
+      copySkill: '도작 스킬',
+      endlessTower: '무탑 정보',
+      equip: '장비',
+      exchange: '거래소',
+      food: '요리',
+      furniture: '가구',
+      gem: '스킬 룬',
+      greedyShop: '탐욕상점',
+      guild: '길드',
+      hat: '의상',
+      job: '직업',
+      log: '최근 갱신：',
+      map: '지도',
+      monster: '몬스터',
+      pet: '펫',
+      prtMaze: '미로숲',
+      rune: '아스신의 비석',
+      skill: '스킬 시뮬레이터',
+      starMonster: '별 몬스터 출현',
+      started: '초보 가이드',
+      timer: 'BOSS 타이머',
+      weekBoss: '주간 BOSS',
+      valhalla: '길던 지도',
+      xo: '렌의 퀴즈',
+
+      linkAbout: '수호백과에 관하여',
+      linkContact: '연락처 및 제휴',
+      linkFeedback: '건의하기'
+    };
+
+    GLOBAL.language.theName = {
+      after: '후 ',
+      create: '작성',
+      day: '일 ',
+      hour: '시간 ',
+      minute: '분 ',
+      start: '시작',
+      end: '종료',
+      change: '갱신',
+      todayOnlyProgress: '진행중인 이벤트만 표시',
+      articleMore: '더 많은 공략 보기'
+    };
+    break;
+
 
   // Japanese
   case 6:

@@ -24,6 +24,17 @@ switch (GLOBAL.userData.groupArea) {
       upload: '上傳圖片'
     };
     break;
+    
+  // Korean
+  case 3:
+    GLOBAL.language.theName = {
+      contributors: '제보자',
+      commentPlaceholder: '길드마다 출현 BOSS는 다르므로 BOSS는 제보하지 마세요.',
+      ruleDetail: '<p>설명</p><p>1. 매 주 월요일 오전 5시에 지도 및 출현 BOSS 갱신；</p><p>2. 지도는 모든 길드 공통이나, 출현 BOSS는 길드마다 다름.</p>',
+      edit: '편집',
+      upload: '지도 업로드'
+    };
+    break;
 
   // Japanese
   case 6:

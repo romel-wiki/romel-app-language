@@ -42,6 +42,26 @@ switch (GLOBAL.userData.groupArea) {
       recoverOk: '嘗試恢復',
     };
     break;
+    
+  // Korean
+  case 3:
+    GLOBAL.language.theName = {
+      getInviteCode: '초대 코드 얻기',
+      emailPlaceholder: '사용할 E-mail 주소 입력',
+      namePlaceholder: '게임 내에서의 이름 (변경 가능)',
+      regTip: '<p>※ 가입시 단 한 번의 결제만 필요하므로, 이미 결제했다면 중복 결제하지 마세요. 문제가 있을 경우 운영자에게 연락해주세요.</p><p>※ 로그인이나 <strong>비밀번호 재설정</strong>시 E-mail 을 사용하므로 평소에 자주 쓰는 주소를 입력해주세요.</p>',
+
+      getLoading: '잠시만 기다려주세요',
+      validError: '오류：',
+      validFailure: '주문을 확인할 수 없습니다',
+      contact: '운영자에게 연락',
+      continuePay: '결제 계속 진행',
+      retry: '다시 시도',
+      repeatTip: '이미 결제한 고객일 가능성이 있습니다. 이미 결제를 마쳤다면 다시 결제하지 말아주세요.',
+      recoverTip: '지난 결제 기록 복구<br>복구되지 않을 경우, 나중에 다시 시도해주세요',
+      recoverOk: '복구하기',
+    };
+    break;
 
   // Japanese
   case 6:

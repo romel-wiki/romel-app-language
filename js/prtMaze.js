@@ -44,6 +44,27 @@ switch (GLOBAL.userData.groupArea) {
       bee: '蜂兵'
     };
     break;
+    
+  // Korean
+  case 3:
+    GLOBAL.language.theName = {
+      note: '사용법：시작 지점을 클릭한 뒤, 목적 지점을 클릭하세요.',
+      mapArea: '구역',
+      monsterArea: '몬스터 분포',
+      argiope: '아르지오프',
+      chonchon: '촌촌',
+      creamy: '크리미',
+      fabre: '파브르',
+      lunatic: '루나틱',
+      mandragora: '만드라고라',
+      rocker: '로커',
+      poring: '포링',
+      wolf: '울프',
+      wilow: '윌로우',
+      yoyo: '요요',
+      bee: '호넷'
+    };
+    break;
 
   // Japanese
   case 6:

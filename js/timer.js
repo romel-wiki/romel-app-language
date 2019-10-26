@@ -38,6 +38,24 @@ switch (GLOBAL.userData.groupArea) {
       tipErrorTime: '時間值錯誤'
     };
     break;
+    
+  // Korean
+  case 3:
+    GLOBAL.language.theName = {
+      skip: '필터',
+      merge: 'MVP / MINI 함께 표시',
+      order: '시간순 정렬',
+      remindAudio: '소리 알림',
+      remindVibrate: '진동 알림',
+      remindNotify: '알림 표시',
+      remindTime: '알람 시점',
+      timeUnit: '초 전',
+      note: '<p>【알람 표시】 설명：</p><p>1. 브라우저, 시스템 등의 알림 권한이 필요합니다。</p>',
+      tipUnableNotify: '알림 권한을 획득할 수 없습니다.',
+      tipNotTime: '시간을 입력해주세요',
+      tipErrorTime: '입력 숫자가 잘못되었습니다'
+    };
+    break;
 
   // Japanese
   case 6:
