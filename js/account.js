@@ -29,6 +29,19 @@ switch (GLOBAL.userData.groupArea) {
     };
     break;
 
+  // Korean
+  case 3:
+    GLOBAL.language.theName = {
+      navAbout: '회원 기능 소개',
+      navApp: '앱 다운로드',
+      navAvatar: '프로필 사진 변경',
+      navProfile: '프로필 변경',
+      navArticle: '내 글',
+      navServer: '서버 변경',
+      welcome: '<p>수호백과에 오신 걸 환영합니다~</p>'
+    };
+    break;
+    
   // Japanese
   case 6:
     GLOBAL.language.theName = {
