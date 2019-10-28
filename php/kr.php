@@ -203,7 +203,7 @@ $Language = array(
     'map' => '지역',
     'monster' => '몬스터',
     'pet' => '펫',
-    'started' => 'Started',
+    'started' => '초보자 가이드',
     'valhalla' => '길던'
   ),
 
