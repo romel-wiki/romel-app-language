@@ -6,7 +6,7 @@ $Language = array(
   'appName' => 'Ro Masters Wiki',
   'appTitle' => 'Ragnarok Masters Wiki',
   'fileName' => 'jp',
-  'languageName' => 'Japanese',
+  'languageName' => '日本語',
 
   // 通用类
   'common' => array(
@@ -192,7 +192,6 @@ $Language = array(
 
   // 底部导航标题
   'footerTitle' => array(
-    'home' => 'ホーム',
     'card' => 'カード',
     'endlessTower' => 'エンドレスタワー',
     'equip' => '装備',
@@ -200,8 +199,11 @@ $Language = array(
     'food' => '料理',
     'greedyShop' => 'グリード商店',
     'hat' => '頭飾',
+    'home' => 'ホーム',
     'map' => 'マップ',
     'monster' => 'モンスター',
+    'started' => '入門',
+    'pet' => 'ペット',
     'valhalla' => 'ヴァルハラ遺跡'
   ),
 
@@ -357,9 +359,9 @@ $Language = array(
 
   // 无限塔
   'endlessTower' => array(
-    'floor' => '階',
+    'floor' => '',
     'floorName' => '階',
-    'line' => '線',
+    'line' => '',
     'lineName' => '線'
   ),
 

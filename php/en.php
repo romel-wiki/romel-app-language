@@ -192,7 +192,6 @@ $Language = array(
 
   // 底部导航标题
   'footerTitle' => array(
-    'home' => 'Home',
     'card' => 'Card',
     'endlessTower' => 'Endless Tower',
     'equip' => 'Equipment',
@@ -200,8 +199,11 @@ $Language = array(
     'food' => 'Food',
     'greedyShop' => 'Greedy Shop',
     'hat' => 'Headwear',
+    'home' => 'Home',
     'map' => 'Map',
     'monster' => 'Monster',
+    'pet' => 'Pet',
+    'started' => 'Started',
     'valhalla' => 'Valhalla'
   ),
 

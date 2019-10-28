@@ -192,16 +192,18 @@ $Language = array(
 
   // 底部导航标题
   'footerTitle' => array(
-    'home' => '首页',
     'card' => '卡片',
     'endlessTower' => '爬塔线路',
     'equip' => '装备',
     'feedback' => '反馈',
-    'food' => '料理大全',
+    'food' => '料理',
     'greedyShop' => '贪婪商店',
     'hat' => '头饰',
+    'home' => '首页',
     'map' => '地图',
     'monster' => '魔物',
+    'pet' => '宠物',
+    'started' => '入门指南',
     'valhalla' => '遗迹线路',
   ),
 
