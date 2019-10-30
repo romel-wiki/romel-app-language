@@ -1,0 +1,92 @@
+/**
+ * English
+ * ------------------------------ */
+.server_tip .server:before{content:'Server: ';}
+.server_tip .time:before{content:'Update Time: ';}
+
+.buykey_pay .in_scan .qrcode.alipay:after{content:'Alipay Scan Qrcode';}
+.buykey_pay .in_scan .qrcode.wechat:after{content:'Wechat Scan Qrcode';}
+
+.home_activity dl.row dd.note:before{content:'Tip: ';}
+
+.home_comment li .name:after{content:':'}
+.home_comment li .title:before,
+.home_comment li .title:after{content:'';}
+
+.pn_bottomleft .close:before,
+.skill_box td.skill .close:before,
+.tower_daita .close:before{content:'Close';}
+
+.panel_search_log .bd a.t_1:before{content:'Monster';}
+.panel_search_log .bd a.t_2:before{content:'Item';}
+.panel_search_log .bd a.t_3:before{content:'Article';}
+
+.trend_info .title .server:before{content:'Server: ';}
+.trend_info .user:after{content:'Update';}
+
+.calc_form .product dd.price:before{content:'Exchange Price: ';}
+.calc_form .product dd.server:before{content:'Server: ';}
+.calc_form .cost .date:before{content:'Date: ';}
+.calc_form .total:before{content:'Total: ';}
+.calc_form .total:after{content:'Exchange price changes in real time, for reference only.';}
+
+.timer_boss li .time:after{content:'Min';}
+.timer_boss li .button:before{content:'Play';}
+.timer_boss li.run .button:before,
+.timer_boss li.ready .button:before{content:'Stop';}
+.timer_boss li.ready .time:after{content:'Sec';}
+.timer_boss li.end .button:before{content:'End';}
+
+.prtmaze_rath dt:before{content:'Start: ';}
+.prtmaze_rath dd.up:after{content:'Up';}
+.prtmaze_rath dd.down:after{content:'Down';}
+.prtmaze_rath dd.left:after{content:'Left';}
+.prtmaze_rath dd.right:after{content:'Right';}
+
+.attrpoint_base .in_str dt:before,
+.attrpoint_base .in_agi dt:before,
+.attrpoint_base .in_vit dt:before,
+.attrpoint_base .in_int dt:before,
+.attrpoint_base .in_dex dt:before,
+.attrpoint_base .in_luk dt:before{content:'';}
+.attrpoint_ft .surplus:before{content:'Remainder: ';}
+
+.skill_filter .total .surplus:before{content:'Remainder: ';}
+.skill_box + .empty_tip:before{content:'Choose Job';}
+
+.copyskill_list .consume .range:before,
+.skill_box td.skill .attr .range:before{content:'Casting Range: ';}
+.copyskill_list .consume .lead:before,
+.skill_box td.skill .attr .lead:before{content:'Cast Time: ';}
+.copyskill_list .consume .delay:before,
+.skill_box td.skill .attr .delay:before{content:'Cast Delay: ';}
+.copyskill_list .consume .cd:before,
+.skill_box td.skill .attr .cd:before{content:'Skill Delay: ';}
+.copyskill_list .consume .sp:before,
+.skill_box td.skill .attr .sp:before{content:'SP Cost: ';}
+.skill_box td.skill .attr .items:before{content:'Special Cost: ';}
+.skill_box td.skill .attr .preskill:before{content:'Previous Skill: ';}
+.copyskill_list .consume .range:after,
+.skill_box td.skill .attr .range:after{content:'m';}
+.copyskill_list .consume .cd:after,
+.skill_box td.skill .attr .cd:after{content:'s';}
+
+.greedyshop_map i:after{content:'Greedy Shop';width:6em;margin-left:-3.5em;}
+.greedyshop_map em:after{content:'I found him';}
+
+.greedyshop_add .line:after,
+.greedyshop_log .line:after{content:'';}
+.greedyshop_log .source:before{content:'User';}
+
+.tower_daita.hide .close:before{content:'';}
+
+.tower_report .in_mvp:before{content:'MVP Floor';}
+.tower_report .in_mini:before{content:'Mini Floor';}
+
+.valhalla_box .in_empty:before{content:'Empty Data';}
+.valhalla_upload:before{content:'Choose Image';}
+
+
+
+/* base.css */
+.ajax_list + .pull:after{content:'Load More';}

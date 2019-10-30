@@ -1,0 +1,92 @@
+/**
+ * Japanese
+ * ------------------------------ */
+.server_tip .server:before{content:'サーバ：';}
+.server_tip .time:before{content:'更新時間：';}
+
+.buykey_pay .in_scan .qrcode.alipay:after{content:'Alipayを使ってQRコードをスキャンする';}
+.buykey_pay .in_scan .qrcode.wechat:after{content:'Wechatを使ってQRコードをスキャンする';}
+
+.home_activity dl.row dd.note:before{content:'Tip: ';}
+
+.home_comment li .name:after{content:':'}
+.home_comment li .title:before{content:'『';}
+.home_comment li .title:after{content:'』';}
+
+.pn_bottomleft .close:before{content:'閉じる';}
+.skill_box td.skill .close:before{content:'閉じる';}
+.tower_daita .close:before{content:'閉じる';}
+
+.panel_search_log .bd a.t_1:before{content:'モンスター';}
+.panel_search_log .bd a.t_2:before{content:'アイテム';}
+.panel_search_log .bd a.t_3:before{content:'記事';}
+
+.trend_info .title .server:before{content:'サーバ：';}
+.trend_info .user:after{content:'更新';}
+
+.calc_form .product dd.price:before{content:'取引所価格：';}
+.calc_form .product dd.server:before{content:'サーバ：';}
+.calc_form .cost .date:before{content:'Date: ';}
+.calc_form .total:before{content:'合計：';}
+.calc_form .total:after{content:'参考のために、取引所の価格はリアルタイムで変化します。';}
+
+.timer_boss li .time:after{content:'分';}
+.timer_boss li .button:before{content:'開始';}
+.timer_boss li.run .button:before,
+.timer_boss li.ready .button:before{content:'やめる';}
+.timer_boss li.ready .time:after{content:'秒';}
+.timer_boss li.end .button:before{content:'終わり';}
+
+.prtmaze_rath dt:before{content:'出発点：';}
+.prtmaze_rath dd.up:after{content:'上';}
+.prtmaze_rath dd.down:after{content:'下';}
+.prtmaze_rath dd.left:after{content:'左';}
+.prtmaze_rath dd.right:after{content:'右';}
+
+.attrpoint_base .in_str dt:before,
+.attrpoint_base .in_agi dt:before,
+.attrpoint_base .in_vit dt:before,
+.attrpoint_base .in_int dt:before,
+.attrpoint_base .in_dex dt:before,
+.attrpoint_base .in_luk dt:before{content:'';}
+.attrpoint_ft .surplus:before{content:'残りのポイント：';}
+
+.skill_filter .total .surplus:before{content:'残り：';}
+.skill_box + .empty_tip:before{content:'職業を選択してください';}
+
+.copyskill_list .consume .range:before,
+.skill_box td.skill .attr .range:before{content:'射程：';}
+.copyskill_list .consume .lead:before,
+.skill_box td.skill .attr .lead:before{content:'詠唱時間：';}
+.copyskill_list .consume .delay:before,
+.skill_box td.skill .attr .delay:before{content:'ディレイ：';}
+.copyskill_list .consume .cd:before,
+.skill_box td.skill .attr .cd:before{content:'クールタイム：';}
+.copyskill_list .consume .sp:before,
+.skill_box td.skill .attr .sp:before{content:'SP 消費：';}
+.skill_box td.skill .attr .items:before{content:'特殊消費：';}
+.skill_box td.skill .attr .preskill:before{content:'前提スキル：';}
+.copyskill_list .consume .range:after,
+.skill_box td.skill .attr .range:after{content:'m';}
+.copyskill_list .consume .cd:after,
+.skill_box td.skill .attr .cd:after{content:'s';}
+
+.greedyshop_map i:after{content:'グリード商店';width:6em;margin-left:-3.5em;}
+.greedyshop_map em:after{content:'彼はここにいる';width:7em;margin-left:-4em;}
+
+.greedyshop_add .line:after,
+.greedyshop_log .line:after{content:'';}
+.greedyshop_log .source:before{content:'プロバイダ';}
+
+.tower_daita.hide .close:before{content:'';}
+
+.tower_report .in_mvp:before{content:'MVP 階';}
+.tower_report .in_mini:before{content:'Mini 階';}
+
+.valhalla_box .in_empty:before{content:'まだデータがありません';}
+.valhalla_upload:before{content:'写真を選択';}
+
+
+
+/* base.css */
+.ajax_list + .pull:after{content:'もっと読む';}

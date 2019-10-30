@@ -1,0 +1,91 @@
+/**
+ * 繁体中文
+ * ------------------------------ */
+.server_tip .server:before{content:'伺服器：';}
+.server_tip .time:before{content:'更新時間：';}
+
+.buykey_pay .in_scan .qrcode.alipay:after{content:'支付寶掃碼支付';}
+.buykey_pay .in_scan .qrcode.wechat:after{content:'微信掃碼支付';}
+
+.home_activity dl.row dd.note:before{content:'Tip: ';}
+
+.home_comment li .name:after{content:':'}
+.home_comment li .title:before{content:'《';}
+.home_comment li .title:after{content:'》';}
+
+.pn_bottomleft .close:before,
+.skill_box td.skill .close:before,
+.tower_daita .close:before{content:'關閉';}
+
+.panel_search_log .bd a.t_1:before{content:'魔物';}
+.panel_search_log .bd a.t_2:before{content:'道具';}
+.panel_search_log .bd a.t_3:before{content:'文章';}
+
+.trend_info .title .server:before{content:'伺服器：';}
+.trend_info .user:after{content:'更新';}
+
+.calc_form .product dd.price:before{content:'交易所價格：';}
+.calc_form .product dd.server:before{content:'伺服器：';}
+.calc_form .cost .date:before{content:'Date: ';}
+.calc_form .total:before{content:'總計：';}
+.calc_form .total:after{content:'交易所價格實時變化，僅供參考';}
+
+.timer_boss li .time:after{content:'分鐘';}
+.timer_boss li .button:before{content:'開始計時';}
+.timer_boss li.run .button:before,
+.timer_boss li.ready .button:before{content:'停止計時';}
+.timer_boss li.ready .time:after{content:'秒';}
+.timer_boss li.end .button:before{content:'完成計時';}
+
+.prtmaze_rath dt:before{content:'起點：';}
+.prtmaze_rath dd.up:after{content:'上';}
+.prtmaze_rath dd.down:after{content:'下';}
+.prtmaze_rath dd.left:after{content:'左';}
+.prtmaze_rath dd.right:after{content:'右';}
+
+.attrpoint_base .in_str dt:before{content:'力量';}
+.attrpoint_base .in_agi dt:before{content:'敏捷';}
+.attrpoint_base .in_vit dt:before{content:'體質';}
+.attrpoint_base .in_int dt:before{content:'智力';}
+.attrpoint_base .in_dex dt:before{content:'靈巧';}
+.attrpoint_base .in_luk dt:before{content:'幸運';}
+.attrpoint_ft .surplus:before{content:'剩餘點數：';}
+
+.skill_filter .total .surplus:before{content:'剩餘：';}
+.skill_box + .empty_tip:before{content:'請選擇職業';}
+
+.copyskill_list .consume .range:before,
+.skill_box td.skill .attr .range:before{content:'施法距離：';}
+.copyskill_list .consume .lead:before,
+.skill_box td.skill .attr .lead:before{content:'吟唱時間：';}
+.copyskill_list .consume .delay:before,
+.skill_box td.skill .attr .delay:before{content:'技能延遲：';}
+.copyskill_list .consume .cd:before,
+.skill_box td.skill .attr .cd:before{content:'技能冷卻：';}
+.copyskill_list .consume .sp:before,
+.skill_box td.skill .attr .sp:before{content:'SP 消耗：';}
+.skill_box td.skill .attr .items:before{content:'特殊消耗：';}
+.skill_box td.skill .attr .preskill:before{content:'前置技能：';}
+.copyskill_list .consume .range:after,
+.skill_box td.skill .attr .range:after{content:'m';}
+.copyskill_list .consume .cd:after,
+.skill_box td.skill .attr .cd:after{content:'s';}
+
+.greedyshop_map i:after{content:'貪婪商店';}
+.greedyshop_map em:after{content:'我找到的位置';}
+.greedyshop_add .line:after,
+.greedyshop_log .line:after{content:'線';}
+.greedyshop_log .source:before{content:'提供者';}
+
+.tower_daita.hide .close:before{content:'';}
+
+.tower_report .in_mvp:before{content:'MVP 層';}
+.tower_report .in_mini:before{content:'Mini 層';}
+
+.valhalla_box .in_empty:before{content:'暫無數據';}
+.valhalla_upload:before{content:'請選擇圖片';}
+
+
+
+/* base.css */
+.ajax_list + .pull:after{content:'上拉加載更多';}
