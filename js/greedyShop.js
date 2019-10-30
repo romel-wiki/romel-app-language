@@ -36,7 +36,7 @@ switch (GLOBAL.userData.groupArea) {
       logMember: '회원만',
       submitPosition: '제보하기',
       guestTip: '※ 1채널만 지원합니다.',
-      note: '<p>탐욕상인은 출현 후 최대 2시간만 존재하며, 유효기간이 지난 제보는 회색으로 표시됩니다；</p><p>기록이 없다면 해보해주세요；</p><p><a data-app="1" class="link blue" href="' + GLOBAL.url.view + '/default/feedback.html?backurl=' + GLOBAL.url.view + '/tool/greedy-shop.html">악의적인 가짜 제보 발견시 신고해주세요. &raquo;</a></p>',
+      note: '<p>탐욕상인은 출현 후 최대 2시간만 존재하며, 유효기간이 지난 제보는 회색으로 표시됩니다；</p><p>기록이 없다면 제보해주세요；</p><p><a data-app="1" class="link blue" href="' + GLOBAL.url.view + '/default/feedback.html?backurl=' + GLOBAL.url.view + '/tool/greedy-shop.html">악의적인 가짜 제보 발견시 신고해주세요. &raquo;</a></p>',
       confirmTip: '<p>탐욕상점 위치를 제보할까요？</p><p><strong style="color:#4a89dc;">「{{server}} - {{line}} 線</strong>」</p><p><strong style="color:#da4453;">등록할 서버를 다시 한 번 확인해주세요</strong></p>',
       removeTip: '<p>이 기록을 지울까요？</p>'
     };
