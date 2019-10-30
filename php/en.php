@@ -376,6 +376,4 @@ $Language = array(
     'tipUpdateBatch' => 'Confirm udate the price of these items?'
   ),
 );
-
-file_put_contents('../'.strstr(basename(__FILE__), '.', true).'.json', json_encode($Language, JSON_UNESCAPED_UNICODE));
 ?>

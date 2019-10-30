@@ -38,7 +38,7 @@ switch (GLOBAL.userData.groupArea) {
       tipErrorTime: '時間值錯誤'
     };
     break;
-    
+
   // Korean
   case 3:
     GLOBAL.language.theName = {

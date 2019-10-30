@@ -1,6 +1,6 @@
 <?
 /**
- * Korea
+ * Korean
  * ------------------------------ */
 $Language = array(
   'appName' => '수호백과',
@@ -203,7 +203,7 @@ $Language = array(
     'map' => '지역',
     'monster' => '몬스터',
     'pet' => '펫',
-    'started' => '초보자 가이드',
+    'started' => '초보 가이드',
     'valhalla' => '길던'
   ),
 
@@ -375,4 +375,5 @@ $Language = array(
     'tipUpdateItem' => '가격 업데이트',
     'tipUpdateBatch' => '이 아이템의 가격을 업데이트할까요?'
   ),
+);
 ?>

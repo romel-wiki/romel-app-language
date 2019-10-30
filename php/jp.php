@@ -1,6 +1,6 @@
 <?
 /**
- * Japan
+ * Japanese
  * ------------------------------ */
 $Language = array(
   'appName' => 'Ro Masters Wiki',
@@ -375,4 +375,5 @@ $Language = array(
     'tipUpdateItem' => '価格のアップデート：',
     'tipUpdateBatch' => '上記を更新してよろしいですか？'
   ),
+);
 ?>

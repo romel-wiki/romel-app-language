@@ -23,7 +23,7 @@ switch (GLOBAL.userData.groupArea) {
       note: '<p>더욱 상세한 정보는 다음을 참조：<a class="link blue und" href="http://ro.xd.com/moniqi/" target="_blank">공식 스탯 시뮬레이터 (중국어)</a></p>'
     };
     break;
-    
+
   // Japanese
   case 6:
     GLOBAL.language.theName = {

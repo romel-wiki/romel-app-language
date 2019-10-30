@@ -44,7 +44,7 @@ switch (GLOBAL.userData.groupArea) {
       bee: '蜂兵'
     };
     break;
-    
+
   // Korean
   case 3:
     GLOBAL.language.theName = {

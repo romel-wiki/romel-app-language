@@ -28,7 +28,7 @@ switch (GLOBAL.userData.groupArea) {
       removeTip: '<p>要刪除這條記錄嗎？</p>'
     };
     break;
-    
+
   // Korean
   case 3:
     GLOBAL.language.theName = {

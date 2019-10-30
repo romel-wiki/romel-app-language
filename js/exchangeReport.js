@@ -30,7 +30,7 @@ switch (GLOBAL.userData.groupArea) {
       reportNote: '<p>※ 請確保回報資料準確，每條回報系統都會記錄，一經發現持續發佈虛假資料，有權撤銷回報權限。</p>'
     };
     break;
-    
+
   // Korean
   case 3:
     GLOBAL.language.theName = {

@@ -108,7 +108,7 @@ switch (GLOBAL.userData.groupArea) {
       articleMore: '瀏覽更多攻略'
     };
     break;
-    
+
   // Korean
   case 3:
     GLOBAL.language.homeTitle = {
@@ -161,7 +161,6 @@ switch (GLOBAL.userData.groupArea) {
       articleMore: '더 많은 공략 보기'
     };
     break;
-
 
   // Japanese
   case 6:

@@ -1,6 +1,6 @@
 /**
- * 个人中心
- * http://romel.wiki/account/
+ * 遗迹地图
+ * http://romel.wiki/valhalla/
 **/
 switch (GLOBAL.userData.groupArea) {
   // 简体中文
@@ -24,7 +24,7 @@ switch (GLOBAL.userData.groupArea) {
       upload: '上傳圖片'
     };
     break;
-    
+
   // Korean
   case 3:
     GLOBAL.language.theName = {

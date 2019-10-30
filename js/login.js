@@ -42,7 +42,7 @@ switch (GLOBAL.userData.groupArea) {
       recoverOk: '嘗試恢復',
     };
     break;
-    
+
   // Korean
   case 3:
     GLOBAL.language.theName = {

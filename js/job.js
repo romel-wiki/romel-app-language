@@ -38,6 +38,7 @@ switch (GLOBAL.userData.groupArea) {
       tipChooseJob: '請選擇職業',
 
       aboutMore: '<a data-app="1"  class="button green radius" href="' + GLOBAL.url.view + '/tool/skill.html">技能模擬器</a>',
+
       runeNote: '<p>神碑模擬器推薦：<a class="link blue" href="https://romelde.github.io/RuneBFS/" target="_blank">*β*ROMEL Rune BFS</a></p><p style="color:#aaa;">※ 模擬器使用 PC 打開效果較好。</p>',
 
       'gemAtk': '攻擊屬性符文',
@@ -45,7 +46,7 @@ switch (GLOBAL.userData.groupArea) {
       'gemBuff': '增益屬性符文'
     };
     break;
-    
+
   // Korean
   case 3:
     GLOBAL.language.theName = {
@@ -57,6 +58,7 @@ switch (GLOBAL.userData.groupArea) {
       tipChooseJob: '직업을 선택해주세요',
 
       aboutMore: '<a data-app="1"  class="button green radius" href="' + GLOBAL.url.view + '/tool/skill.html">스킬 시뮬레이터</a>',
+
       runeNote: '<p>아스신의 비석 시뮬레이터：<a class="link blue" href="https://romelde.github.io/RuneBFS/" target="_blank">*β*ROMEL Rune BFS</a></p><p style="color:#aaa;">※ PC 브라우저를 이용해주세요.</p>',
 
       'gemAtk': '공격 스탯 룬',
@@ -76,6 +78,7 @@ switch (GLOBAL.userData.groupArea) {
       tipChooseJob: '職業を選択してください',
 
       aboutMore: '<a class="button green radius" href="' + GLOBAL.url.view + '/tool/skill.html">スキルシミュレータ</a>',
+
       runeNote: '<p>シミュレータの推奨：<a class="link blue" href="https://romelde.github.io/RuneBFS/" target="_blank">*β*ROMEL Rune BFS</a></p><p style="color:#aaa;">※ PCのブラウザをご利用ください。</p>',
 
       'gemAtk': '攻击属性符文',
@@ -95,6 +98,7 @@ switch (GLOBAL.userData.groupArea) {
       tipChooseJob: 'Choose Job',
 
       aboutMore: '<a data-app="1"  class="button green radius" href="' + GLOBAL.url.view + '/tool/skill.html">Skill Simulator</a>',
+
       runeNote: '<p>Aeisr monument simulator recommendation: <a class="link blue" href="https://romelde.github.io/RuneBFS/" target="_blank">*β*ROMEL Rune BFS</a></p><p style="color:#aaa;">※ It is recommended to use PC to open</p>',
 
       'gemAtk': '攻击属性符文',

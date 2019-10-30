@@ -375,4 +375,5 @@ $Language = array(
     'tipUpdateItem' => '價格更新為',
     'tipUpdateBatch' => '確認更新以上物品價格？'
   ),
+);
 ?>

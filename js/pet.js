@@ -41,7 +41,8 @@ switch (GLOBAL.userData.groupArea) {
       workUnlock: '解鎖條件',
       workLimit: '不可參與',
     };
-    
+    break;
+
   // Korean
   case 3:
     GLOBAL.language.theName = {
@@ -59,6 +60,7 @@ switch (GLOBAL.userData.groupArea) {
       workUnlock: '해제조건',
       workLimit: '작업불가',
     };
+    break;
 
   // Japanese
   case 6:

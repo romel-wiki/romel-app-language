@@ -24,7 +24,7 @@ switch (GLOBAL.userData.groupArea) {
       note: '如果此處無法描述您的問題，可以<a data-app="1" class="link blue" href="' + GLOBAL.url.view + '/article/detail.html?id=contact&backurl=' + GLOBAL.url.view + '/default/feedback.html">聯繫我們</a>'
     };
     break;
-    
+
   // Korean
   case 3:
     GLOBAL.language.theName = {
@@ -32,7 +32,7 @@ switch (GLOBAL.userData.groupArea) {
       suggest: '건의',
       report: '제보',
       infoPlaceholder: '- 문제를 정확하고 상세하게 알려주시면 해결하는데 큰 도움이 됩니다；\n- 특정 페이지에 관한 질문이라면 어떤 페이지인지 알려주세요.',
-      note: '그 밖의 질문은 <a data-app="1" class="link blue" href="' + GLOBAL.url.view + '/article/detail.html?id=contact&backurl=' + GLOBAL.url.view + '/default/feedback.html">여기로 보내주세요</a>'
+      note: '그 밖의 질문은：ro@zhaiwuyu.com'
     };
     break;
 

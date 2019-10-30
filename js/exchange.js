@@ -28,7 +28,7 @@ switch (GLOBAL.userData.groupArea) {
       batchReport: '使用批量上報工具'
     };
     break;
-    
+
   // Korean
   case 3:
     GLOBAL.language.theName = {

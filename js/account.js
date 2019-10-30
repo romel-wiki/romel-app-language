@@ -41,7 +41,7 @@ switch (GLOBAL.userData.groupArea) {
       welcome: '<p>수호백과에 오신 걸 환영합니다~</p>'
     };
     break;
-    
+
   // Japanese
   case 6:
     GLOBAL.language.theName = {
