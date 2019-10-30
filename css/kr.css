@@ -4,8 +4,8 @@
 .server_tip .server:before{content:'서버：';}
 .server_tip .time:before{content:'업데이트 시간：';}
 
-.buykey_pay .in_scan .qrcode.alipay:after{content:'Alipay Scan Qrcode';}
-.buykey_pay .in_scan .qrcode.wechat:after{content:'Wechat Scan Qrcode';}
+.buykey_pay .in_scan .qrcode.alipay:after{content:'알리페이 QR결제';}
+.buykey_pay .in_scan .qrcode.wechat:after{content:'위챗 QR결제';}
 
 .home_activity dl.row dd.note:before{content:'Tip：';}
 
@@ -26,20 +26,20 @@
 
 .calc_form .product dd.price:before{content:'거래소 가격：';}
 .calc_form .product dd.server:before{content:'서버：';}
-.calc_form .cost .date:before{content:'Date: ';}
+.calc_form .cost .date:before{content:'기준일: ';}
 .calc_form .total:before{content:'총합：';}
-.calc_form .total:after{content:'참고 용으로 만';}
+.calc_form .total:after{content:'실제 거래소 가격과 다를 수 있습니다. 참고용으로만 쓰세요.';}
 
 .timer_boss li .time:after{content:'분';}
 .timer_boss li .button:before{content:'시작';}
 .timer_boss li.run .button:before,
 .timer_boss li.ready .button:before{content:'중지';}
 .timer_boss li.ready .time:after{content:'초';}
-.timer_boss li.end .button:before{content:'완전한';}
+.timer_boss li.end .button:before{content:'종료';}
 
 .prtmaze_rath dt:before{content:'출발점：';}
-.prtmaze_rath dd.up:after{content:'켜기';}
-.prtmaze_rath dd.down:after{content:'언더';}
+.prtmaze_rath dd.up:after{content:'위';}
+.prtmaze_rath dd.down:after{content:'아래';}
 .prtmaze_rath dd.left:after{content:'왼쪽';}
 .prtmaze_rath dd.right:after{content:'오른쪽';}
 
@@ -49,9 +49,9 @@
 .attrpoint_base .in_int dt:before,
 .attrpoint_base .in_dex dt:before,
 .attrpoint_base .in_luk dt:before{content:'';}
-.attrpoint_ft .surplus:before{content:'남은：';}
+.attrpoint_ft .surplus:before{content:'남은 점수：';}
 
-.skill_filter .total .surplus:before{content:'남은：';}
+.skill_filter .total .surplus:before{content:'남은 점수：';}
 .skill_box + .empty_tip:before{content:'직업을 선택해주세요';}
 
 .copyskill_list .consume .range:before,
@@ -61,11 +61,11 @@
 .copyskill_list .consume .delay:before,
 .skill_box td.skill .attr .delay:before{content:'스킬 딜레이：';}
 .copyskill_list .consume .cd:before,
-.skill_box td.skill .attr .cd:before{content:'스킬 딜레이：';}
+.skill_box td.skill .attr .cd:before{content:'스킬 쿨타임：';}
 .copyskill_list .consume .sp:before,
 .skill_box td.skill .attr .sp:before{content:'SP 소모：';}
 .skill_box td.skill .attr .items:before{content:'특수 소모：';}
-.skill_box td.skill .attr .preskill:before{content:'조건 스킬：';}
+.skill_box td.skill .attr .preskill:before{content:'선행 스킬：';}
 .copyskill_list .consume .range:after,
 .skill_box td.skill .attr .range:after{content:'m';}
 .copyskill_list .consume .cd:after,
@@ -75,7 +75,7 @@
 .greedyshop_map em:after{content:'찾은 위치';}
 
 .greedyshop_add .line:after,
-.greedyshop_log .line:after{content:'';}
+.greedyshop_log .line:after{content:'채널';}
 .greedyshop_log .source:before{content:'제공자';}
 
 .tower_daita.hide .close:before{content:'';}
@@ -84,9 +84,9 @@
 .tower_report .in_mini:before{content:'Mini 층';}
 
 .valhalla_box .in_empty:before{content:'데이터 없음';}
-.valhalla_upload:before{content:'Choose Image';}
+.valhalla_upload:before{content:'이미지 업로드';}
 
 
 
 /* base.css */
-.ajax_list + .pull:after{content:'더로드';}
+.ajax_list + .pull:after{content:'당겨서 새로고침';}
