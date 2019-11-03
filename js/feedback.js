@@ -31,7 +31,7 @@ switch (GLOBAL.userData.groupArea) {
       miss: '정보 오류 또는 누락',
       suggest: '건의',
       report: '제보',
-      infoPlaceholder: '- 문제를 정확하고 상세하게 알려주시면 해결하는데 큰 도움이 됩니다；\n- 특정 페이지에 관한 질문이라면 어떤 페이지인지 알려주세요.',
+      infoPlaceholder: '- 문제를 정확하고 상세하게 알려주시면 해결하는데 큰 도움이 됩니다；\n- 특정 페이지에 관한 질문이라면 어떤 페이지인지 알려주세요；\n- 제보는 영어나 중국어로 작성해 주세요.',
       note: '그 밖의 질문은：ro@zhaiwuyu.com'
     };
     break;
