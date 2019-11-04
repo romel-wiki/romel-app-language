@@ -229,7 +229,7 @@ $Language = array(
   // --------------------
   'filterNames' => array(
     'attr' => '속성',
-    'cooker' => '요리',
+    'cooker' => '쿠킹',
     'hard' => '난이도',
     'job' => '직업',
     'kitchenware' => '조리도구',
