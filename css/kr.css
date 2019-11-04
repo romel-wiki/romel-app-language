@@ -26,7 +26,7 @@
 
 .calc_form .product dd.price:before{content:'거래소 가격：';}
 .calc_form .product dd.server:before{content:'서버：';}
-.calc_form .cost .date:before{content:'기준일: ';}
+.calc_form .cost .date:before{content:'기준일：';}
 .calc_form .total:before{content:'총합：';}
 .calc_form .total:after{content:'실제 거래소 가격과 다를 수 있습니다. 참고용으로만 쓰세요.';}
 
@@ -65,7 +65,7 @@
 .copyskill_list .consume .sp:before,
 .skill_box td.skill .attr .sp:before{content:'SP 소모：';}
 .skill_box td.skill .attr .items:before{content:'특수 소모：';}
-.skill_box td.skill .attr .preskill:before{content:'선행 스킬：';}
+.skill_box td.skill .attr .preskill:before{content:'이전 스킬：';}
 .copyskill_list .consume .range:after,
 .skill_box td.skill .attr .range:after{content:'m';}
 .copyskill_list .consume .cd:after,
@@ -75,7 +75,7 @@
 .greedyshop_map em:after{content:'찾은 위치';}
 
 .greedyshop_add .line:after,
-.greedyshop_log .line:after{content:'채널';}
+.greedyshop_log .line:after{content:'';}
 .greedyshop_log .source:before{content:'제공자';}
 
 .tower_daita.hide .close:before{content:'';}

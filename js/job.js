@@ -21,9 +21,9 @@ switch (GLOBAL.userData.groupArea) {
 
       runeNote: '<p>神碑模拟器推荐：<a class="link blue" href="https://romelde.github.io/RuneBFS/" target="_blank">*β*ROMEL Rune BFS</a></p><p style="color:#aaa;">※ 模拟器使用 PC 打开效果较好。</p>',
 
-      gemAtk: '攻击属性符文',
-      gemDef: '防御属性符文',
-      gemBuff: '增益属性符文'
+      gemAtk: '攻击符文',
+      gemDef: '防御符文',
+      gemBuff: '增益符文'
     };
     break;
 
@@ -41,9 +41,9 @@ switch (GLOBAL.userData.groupArea) {
 
       runeNote: '<p>神碑模擬器推薦：<a class="link blue" href="https://romelde.github.io/RuneBFS/" target="_blank">*β*ROMEL Rune BFS</a></p><p style="color:#aaa;">※ 模擬器使用 PC 打開效果較好。</p>',
 
-      'gemAtk': '攻擊屬性符文',
-      'gemDef': '防禦屬性符文',
-      'gemBuff': '增益屬性符文'
+      'gemAtk': '攻擊符文',
+      'gemDef': '防禦符文',
+      'gemBuff': '增益符文'
     };
     break;
 
@@ -61,9 +61,9 @@ switch (GLOBAL.userData.groupArea) {
 
       runeNote: '<p>아스신의 비석 시뮬레이터：<a class="link blue" href="https://romelde.github.io/RuneBFS/" target="_blank">*β*ROMEL Rune BFS</a></p><p style="color:#aaa;">※ PC 브라우저를 이용해주세요.</p>',
 
-      'gemAtk': '공격 스탯 룬',
-      'gemDef': '방어 스탯 룬',
-      'gemBuff': '특수 스탯 룬'
+      'gemAtk': '공격 룬',
+      'gemDef': '방어 룬',
+      'gemBuff': '특수 룬'
     };
     break;
 
@@ -81,9 +81,9 @@ switch (GLOBAL.userData.groupArea) {
 
       runeNote: '<p>シミュレータの推奨：<a class="link blue" href="https://romelde.github.io/RuneBFS/" target="_blank">*β*ROMEL Rune BFS</a></p><p style="color:#aaa;">※ PCのブラウザをご利用ください。</p>',
 
-      'gemAtk': '攻击属性符文',
-      'gemDef': '防御属性符文',
-      'gemBuff': '增益属性符文'
+      'gemAtk': '攻击符文',
+      'gemDef': '防御符文',
+      'gemBuff': '增益符文'
     };
     break;
 
@@ -101,9 +101,9 @@ switch (GLOBAL.userData.groupArea) {
 
       runeNote: '<p>Aeisr monument simulator recommendation: <a class="link blue" href="https://romelde.github.io/RuneBFS/" target="_blank">*β*ROMEL Rune BFS</a></p><p style="color:#aaa;">※ It is recommended to use PC to open</p>',
 
-      'gemAtk': '攻击属性符文',
-      'gemDef': '防御属性符文',
-      'gemBuff': '增益属性符文'
+      'gemAtk': 'ATK Rune',
+      'gemDef': 'DEF Rune',
+      'gemBuff': 'Buff Rune'
     };
     break;
 };
