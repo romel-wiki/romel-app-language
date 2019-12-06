@@ -23,6 +23,7 @@ $Language = array(
     'unit' => '件',
     'moneyUnit' => '元',
     'condition' => '條件',
+    'unrequired' => '不限',
 
     'article' => '文章',
     'card' => '卡片',
@@ -211,6 +212,7 @@ $Language = array(
   'searchTitle' => array(
     'attr' => '屬性',
     'bookAttr' => '手冊屬性',
+    'refineStorage' => '精煉存入',
     'dropItem' => '掉落道具',
     'keywork' => '關鍵詞',
     'myFavorite' => '我的收藏',
@@ -225,6 +227,12 @@ $Language = array(
   ),
 
   // 筛选工具
+  'filterOptions' => array(
+    'have' => '有',
+    'normal' => '不限',
+    'not' => '無'
+  ),
+
   // JavaScript File
   // --------------------
   'filterNames' => array(
@@ -249,11 +257,6 @@ $Language = array(
     'type' => '類型',
     'unlock' => '解鎖',
     'slot' => '孔數'
-  ),
-  'filterOptions' => array(
-    'have' => '有',
-    'normal' => '不限',
-    'not' => '無'
   ),
   'orderbyOptions' => array(
     'default' => '默認排序',

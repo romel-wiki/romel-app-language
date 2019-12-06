@@ -23,6 +23,7 @@ $Language = array(
     'unit' => '',
     'moneyUnit' => 'CNY',
     'condition' => '条件',
+    'unrequired' => '無制限',
 
     'article' => '記事',
     'card' => 'カード',
@@ -211,6 +212,7 @@ $Language = array(
   'searchTitle' => array(
     'attr' => '効果',
     'bookAttr' => '解放',
+    'refineStorage' => '預ける精錬',
     'dropItem' => 'ドロップ',
     'keywork' => 'キーワード',
     'myFavorite' => '私のコレクション',
@@ -225,6 +227,12 @@ $Language = array(
   ),
 
   // 筛选工具
+  'filterOptions' => array(
+    'have' => '含む',
+    'normal' => '全部',
+    'not' => 'いいえ'
+  ),
+
   // JavaScript File
   // --------------------
   'filterNames' => array(
@@ -249,11 +257,6 @@ $Language = array(
     'type' => '種類',
     'unlock' => '解锁',
     'slot' => '穴開け'
-  ),
-  'filterOptions' => array(
-    'have' => '含む',
-    'normal' => 'すべて',
-    'not' => 'いいえ'
   ),
   'orderbyOptions' => array(
     'default' => 'デフォルト',

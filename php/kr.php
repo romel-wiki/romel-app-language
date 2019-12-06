@@ -23,6 +23,7 @@ $Language = array(
     'unit' => '',
     'moneyUnit' => 'CNY',
     'condition' => '조건',
+    'unrequired' => '무제한',
 
     'article' => '글',
     'card' => '카드',
@@ -211,6 +212,7 @@ $Language = array(
   'searchTitle' => array(
     'attr' => '속성',
     'bookAttr' => '수첩 속성',
+    'refineStorage' => '보관 제련',
     'dropItem' => '드랍 아이템',
     'keywork' => '키워드',
     'myFavorite' => '즐겨찾기',
@@ -225,6 +227,12 @@ $Language = array(
   ),
 
   // 筛选工具
+  'filterOptions' => array(
+    'have' => '포함',
+    'normal' => '전부',
+    'not' => '없음'
+  ),
+
   // JavaScript File
   // --------------------
   'filterNames' => array(
@@ -249,11 +257,6 @@ $Language = array(
     'type' => '유형',
     'unlock' => '해제',
     'slot' => '소켓'
-  ),
-  'filterOptions' => array(
-    'have' => '포함',
-    'normal' => '전부',
-    'not' => '없음'
   ),
   'orderbyOptions' => array(
     'default' => '기본 순서',

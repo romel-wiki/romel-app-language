@@ -23,6 +23,7 @@ $Language = array(
     'unit' => '',
     'moneyUnit' => 'CNY',
     'condition' => 'Requirement',
+    'unrequired' => 'Unrequired',
 
     'article' => 'Article',
     'card' => 'Card',
@@ -211,6 +212,7 @@ $Language = array(
   'searchTitle' => array(
     'attr' => 'Attribute',
     'bookAttr' => 'Handbook Attr',
+    'refineStorage' => 'Deposit Refine',
     'dropItem' => 'Drop Item',
     'keywork' => 'Keywork',
     'myFavorite' => 'My Favorite',
@@ -225,6 +227,12 @@ $Language = array(
   ),
 
   // 筛选工具
+  'filterOptions' => array(
+    'have' => 'Have',
+    'normal' => 'All',
+    'not' => 'Not'
+  ),
+
   // JavaScript File
   // --------------------
   'filterNames' => array(
@@ -249,11 +257,6 @@ $Language = array(
     'type' => 'Type',
     'unlock' => 'Unlock',
     'slot' => 'Slot'
-  ),
-  'filterOptions' => array(
-    'have' => 'Have',
-    'normal' => 'Unlimited',
-    'not' => 'Not'
   ),
   'orderbyOptions' => array(
     'default' => 'Default',
