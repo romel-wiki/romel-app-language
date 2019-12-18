@@ -358,6 +358,7 @@ $Language = array(
     'refineEquipPrice' => '装備価格',
     'refineUpdatePrice' => '報告価格',
     'refineCalcPrice' => 'コスト計算',
+    'upgradeBuff' => '装備グレードアップ',
   ),
 
   // 无限塔

@@ -358,6 +358,7 @@ $Language = array(
     'refineEquipPrice' => 'Equip Price',
     'refineUpdatePrice' => 'Report Price',
     'refineCalcPrice' => 'Cost Calc',
+    'upgradeBuff' => 'Upgrade',
   ),
 
   // 无限塔

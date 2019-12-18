@@ -358,6 +358,7 @@ $Language = array(
     'refineEquipPrice' => '장비 가격',
     'refineUpdatePrice' => '가격 제보',
     'refineCalcPrice' => '비용 계산',
+    'upgradeBuff' => '장비 티어 상승',
   ),
 
   // 无限塔
