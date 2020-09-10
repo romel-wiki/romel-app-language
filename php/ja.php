@@ -2,10 +2,12 @@
 /**
  * Japanese
  * ------------------------------ */
+$FileName = strstr(basename(__FILE__), '.', true);
+
 $Language = array(
   'appName' => 'Ro Masters Wiki',
   'appTitle' => 'Ragnarok Masters Wiki',
-  'fileName' => 'jp',
+  'fileName' => $FileName,
   'languageName' => '日本語',
 
   // 通用类
@@ -19,6 +21,7 @@ $Language = array(
     'endData' => '全てが表示されました',
     'history' => '歴史',
     'loadMore' => 'もっと読む',
+    'origin' => '入手方法',
     'timeout' => 'タイムアウト',
     'unit' => '',
     'moneyUnit' => 'CNY',
@@ -27,6 +30,7 @@ $Language = array(
 
     'article' => '記事',
     'card' => 'カード',
+    'detail' => '詳細',
     'draw' => '設計図',
     'dropItem' => 'ドロップ',
     'equip' => '装備',
@@ -52,6 +56,10 @@ $Language = array(
     'unlock' => '解鎖',
     'unlockAttr' => '解鎖',
     'viewpoint' => '名所',
+
+    // 地图
+    'midgarts' => 'ミッドガルド',
+    'asgard' => 'アースガルド',
 
     // 操作
     'readMake' => '製作材料',
@@ -94,7 +102,6 @@ $Language = array(
     'attr' => '効果',
     'buyPrice' => '取引所価格',
     'gotoLogin' => 'ログイン',
-    'origin' => '入手方法',
     'rank' => '品質',
 
     // 装备相关
@@ -139,7 +146,7 @@ $Language = array(
 
   // 页面标题
   'pageTitle' => array(
-    'default' => 'Ro Masters Wiki',
+    'default' => 'Romel Wiki',
     'feedback' => 'フィードバック',
     'pay' => '支払う',
 
@@ -174,7 +181,8 @@ $Language = array(
     'rune' => 'アース神の石碑',
     'search' => '検索',
     'skillSimulator' => 'スキルシミュレータ',
-    'timer' => 'MVP & MINI タイマー',
+    'skillSimulatorT4' => '4次 スキルシミュレータ',
+    'timer' => 'MVP & Mini タイマー',
     'valhalla' => 'ヴァルハラ遺跡ナビゲーション',
     'valhallaEditor' => '遗迹线路编辑器',
     'xo' => 'クエスト問題',
@@ -198,6 +206,7 @@ $Language = array(
     'equip' => '装備',
     'feedback' => 'フィードバック',
     'food' => '料理',
+    'furniture' => '家具',
     'greedyShop' => 'グリード商店',
     'hat' => '頭飾',
     'home' => 'ホーム',
@@ -210,27 +219,32 @@ $Language = array(
 
   // 搜索项名称
   'searchTitle' => array(
+    'adventureArea' => '地域',
     'attr' => '効果',
     'bookAttr' => '解放',
-    'refineStorage' => '預ける精錬',
     'dropItem' => 'ドロップ',
-    'keywork' => 'キーワード',
-    'myFavorite' => '私のコレクション',
-    'makeMaterial' => '製作材料',
-    'name' => 'お名前',
-    'upgradeMaterial' => 'アップグレード材料',
-    'plagiarismSkill' => 'クローンスキル',
-    'transformSkill' => '変身スキル',
-    'adventureArea' => '地域',
     'isCompose' => '装備製作に属する',
     'isEquipHigh' => '魔力注入に属する',
+    'keywork' => 'キーワード',
+    'makeMaterial' => '製作材料',
+    'myFavorite' => '私のコレクション',
+    'name' => 'お名前',
+    'origin' => '入手方法',
+    'plagiarismSkill' => 'クローンスキル',
+    'rank' => '品質',
+    'refineStorage' => '預ける精錬',
+    'tradeType' => '取引所',
+    'transformSkill' => '変身スキル',
+    'upgradeMaterial' => 'アップグレード材料',
   ),
 
   // 筛选工具
   'filterOptions' => array(
-    'have' => '含む',
     'normal' => '全部',
-    'not' => 'いいえ'
+    'have' => '含む',
+    'not' => 'いいえ',
+    'canTrade' => '取引可',
+    'notTrade' => '取引不可',
   ),
 
   // JavaScript File
@@ -322,7 +336,7 @@ $Language = array(
     'server' => 'サーバー',
 
     'captcha' => '確認コード',
-    'inviteCode' => 'ライセンス',
+    'inviteCode' => 'Invite Code',
 
     'name' => 'お名前',
     'sex' => '性別',

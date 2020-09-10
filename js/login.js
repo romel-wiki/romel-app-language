@@ -2,12 +2,16 @@
  * 登录、注册
  * http://romel.wiki/passport/login
 **/
-switch (GLOBAL.userData.groupArea) {
+switch (GLOBAL.userData.language) {
   // 简体中文
-  case 0:
+  case 'cn':
     GLOBAL.language.theName = {
       getInviteCode: '获取邀请码',
       emailPlaceholder: '您正在使用的电子邮箱',
+      memberVersion: '版本',
+      memberVersionStandard: '会员',
+      memberVersionLite: '会员 Lite',
+      memberVersionTips: '会员 Lite：无法更改语言和服务器。',
       namePlaceholder: '建议填写游戏中昵称（可更改）',
       regTip: '<p>※ 注册只需付款一次，请勿重复支付，如有问题，请联系客服。</p><p>※ E-mail 将用于登录及<strong>重置密码</strong>，请用可以正常使用的电子邮箱。</p>',
 
@@ -24,10 +28,14 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // 繁體中文
-  case 2:
+  case 'tw':
     GLOBAL.language.theName = {
       getInviteCode: '獲取邀請碼',
       emailPlaceholder: '您正在使用的電子郵箱',
+      memberVersion: '版本',
+      memberVersionStandard: '會員',
+      memberVersionLite: '會員 Lite',
+      memberVersionTips: '會員 Lite：不可更改語言和伺服器。',
       namePlaceholder: '建議填寫遊戲中的暱稱（可更改）',
       regTip: '<p>※ 註冊只需付款一次，請勿重複支付，如有問題，請聯繫客服。</p><p>※ E-mail 將用於登入及<strong>重置密碼</strong>，請用可以正常使用的電子郵箱。</p>',
 
@@ -44,10 +52,14 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // Korean
-  case 3:
+  case 'ko':
     GLOBAL.language.theName = {
       getInviteCode: '초대 코드 얻기',
       emailPlaceholder: '사용할 E-mail 주소 입력',
+      memberVersion: '버전',
+      memberVersionStandard: 'Member',
+      memberVersionLite: 'Member Lite',
+      memberVersionTips: 'Member Lite：언어와 서버를 변경할 수 없습니다.',
       namePlaceholder: '게임 내에서의 이름 (변경 가능)',
       regTip: '<p>※ 가입시 단 한 번의 결제만 필요하므로, 이미 결제했다면 중복 결제하지 마세요. 문제가 있을 경우 운영자에게 연락해주세요.</p><p>※ 로그인이나 <strong>비밀번호 재설정</strong>시 E-mail 을 사용하므로 평소에 자주 쓰는 주소를 입력해주세요.</p>',
 
@@ -64,10 +76,14 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // Japanese
-  case 6:
+  case 'ja':
     GLOBAL.language.theName = {
       getInviteCode: '入手',
       emailPlaceholder: 'あなたのEメール',
+      memberVersion: 'バージョン',
+      memberVersionStandard: 'Member',
+      memberVersionLite: 'Member Lite',
+      memberVersionTips: 'Member Lite：言語とサーバーを変更できません',
       namePlaceholder: 'ゲーム内の名前',
       regTip: '※ ログインやパスワードの再設定にはEメールが使用されますので、通常使用できるEメールアドレスを使用してください。',
 
@@ -83,11 +99,39 @@ switch (GLOBAL.userData.groupArea) {
     };
     break;
 
+  // Thai
+  case 'th':
+    GLOBAL.language.theName = {
+      getInviteCode: 'Get Code',
+      emailPlaceholder: 'Your email',
+      memberVersion: 'Version',
+      memberVersionStandard: 'Member',
+      memberVersionLite: 'Member Lite',
+      memberVersionTips: 'Member Lite: Cannot change language and server.',
+      namePlaceholder: 'Your name in the game',
+      regTip: '<p>※ Registered members only need to pay once, do not repeat payment, if there is any problem, please contact customer service.</p><p>※ E-mail will be used to log in and reset password, please make sure your email is working properly.</p>',
+
+      getLoading: 'Please wait',
+      validError: 'Error: ',
+      validFailure: 'Order verification failed',
+      contact: 'Contact us',
+      continuePay: 'Continue to pay',
+      retry: 'Try again',
+      repeatTip: 'You have detected that you may have paid, and if you have already paid, do not repeat the payment.',
+      recoverTip: 'Discover the last uncompleted purchase record<br>If you can\'t recover, please try again later',
+      recoverOk: 'Try to recover',
+    };
+    break;
+
   // English
   default:
     GLOBAL.language.theName = {
       getInviteCode: 'Get Code',
       emailPlaceholder: 'Your email',
+      memberVersion: 'Version',
+      memberVersionStandard: 'Member',
+      memberVersionLite: 'Member Lite',
+      memberVersionTips: 'Member Lite: Cannot change language and server.',
       namePlaceholder: 'Your name in the game',
       regTip: '<p>※ Registered members only need to pay once, do not repeat payment, if there is any problem, please contact customer service.</p><p>※ E-mail will be used to log in and reset password, please make sure your email is working properly.</p>',
 

@@ -2,9 +2,9 @@
  * 遗迹地图
  * http://romel.wiki/valhalla/
 **/
-switch (GLOBAL.userData.groupArea) {
+switch (GLOBAL.userData.language) {
   // 简体中文
-  case 0:
+  case 'cn':
     GLOBAL.language.theName = {
       contributors: '提供者',
       commentPlaceholder: '请不要在此回复BOSS內容，每个公会的BOSS都不一样',
@@ -15,7 +15,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // 繁體中文
-  case 2:
+  case 'tw':
     GLOBAL.language.theName = {
       contributors: '提供者',
       commentPlaceholder: '請不要再次回復BOSS內容，每個公會的BOSS都不一樣',
@@ -26,7 +26,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // Korean
-  case 3:
+  case 'ko':
     GLOBAL.language.theName = {
       contributors: '제보자',
       commentPlaceholder: '길드마다 출현 BOSS는 다르므로 BOSS는 제보하지 마세요.',
@@ -37,13 +37,24 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // Japanese
-  case 6:
+  case 'ja':
     GLOBAL.language.theName = {
       contributors: '提供者',
       commentPlaceholder: '',
       ruleDetail: '<p>説明</p><p>1. 月曜日の05：00、地図とBOSSを重置します；</p><p>2. ギルド毎の地図が一致ですが。BOSSが違っています。</p>',
       edit: '編集',
       upload: 'アップロード'
+    };
+    break;
+
+  // Thai
+  case 'th':
+    GLOBAL.language.theName = {
+      contributors: 'Provider',
+      commentPlaceholder: 'Please don\'t reply to what boss in the map, every guild is different.',
+      ruleDetail: '<p>Note</p><p>1. Reset every Monday at 5:00</p><p>2. The map of each guild is the same, just boss is different.</p>',
+      edit: 'Edit',
+      upload: 'Upload Picture'
     };
     break;
 

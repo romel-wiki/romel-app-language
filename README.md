@@ -2,12 +2,12 @@
 Multi-language configuration file for Romel Wiki
 
 
-Server | Group ID | Language
--|-|-
-国服 | 0 | 简体中文
-台服 | 2 | 繁体中文
-Korea | 3 | Korean
-SEA | 4 | English
-Global | 5 | English
-Japan | 6 | Japanese
+File Name | Language
+-|-
+cn | 简体中文
+tw | 繁体中文
+en | English
+ko | 한국어
+ja | 日本語
+th | ภาษาไทย (Processing)
 

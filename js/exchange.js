@@ -2,9 +2,9 @@
  * 交易所
  * http://romel.wiki/exchange/
 **/
-switch (GLOBAL.userData.groupArea) {
+switch (GLOBAL.userData.language) {
   // 简体中文
-  case 0:
+  case 'cn':
     GLOBAL.language.theName = {
       rule: '<p>已过滤道具：</p><ul><li>常规合成的卡片</li><li>通过 NPC 制作的装备</li></ul><p>详情查看<a data-app="1" href="' + GLOBAL.url.view + '/article/detail.html?id=33">《交易所功能使用说明》</a></p>',
       lastPrice: '最新价格',
@@ -17,7 +17,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // 繁體中文
-  case 2:
+  case 'tw':
     GLOBAL.language.theName = {
       rule: '<p>已過濾道具：</p><ul><li>常規合成的卡片</li><li>通過 NPC 製作的裝備</li></ul><p>詳情查看<a data-app="1" href="' + GLOBAL.url.view + '/article/detail.html?id=33">《交易所功能使用說明》</a></p>',
       lastPrice: '最新價格',
@@ -30,7 +30,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // Korean
-  case 3:
+  case 'ko':
     GLOBAL.language.theName = {
       rule: '<p>불포함 아이템：</p><ul><li>킹 포링 제작 카드</li><li>NPC 제작 장비</li></ul><p>상세 보기<a data-app="1" href="' + GLOBAL.url.view + '/article/detail.html?id=33">《거래소 기능 사용 설명서》</a></p>',
       lastPrice: '최신 가격',
@@ -43,7 +43,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // Japanese
-  case 6:
+  case 'ja':
     GLOBAL.language.theName = {
       rule: '<p>已过滤道具：</p><ul><li>合成したカード</li><li>NPC 製造の装備</li></ul>',
       lastPrice: '最新価格',
@@ -52,6 +52,19 @@ switch (GLOBAL.userData.groupArea) {
       reportPrice: '現在の価格',
       reportNote: '<p>※ 提出した資料の真实性をご確認ください。噓の資料を見つければ、貴方の提出権限を禁止します。</p>',
       batchReport: '一括更新ツール'
+    };
+    break;
+
+  // Thai
+  case 'th':
+    GLOBAL.language.theName = {
+      rule: '<p>Filtered</p><ul><li>Producable Card</li><li>Producable Equip</li></ul>',
+      lastPrice: 'Last Price',
+      maxPrice: 'High Price',
+      minPrice: 'Low Price',
+      reportPrice: 'Report',
+      reportNote: '<p>Please submit accurate information.</p>',
+      batchReport: 'Batch report'
     };
     break;
 

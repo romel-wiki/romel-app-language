@@ -16,11 +16,15 @@
 .pn_bottomleft .close:before,
 .skill_box td.skill .close:before,
 .tower_daita .close:before{content:'닫기';}
+.pn_bottomleft.hide .close:before{content:'표시';}
 
 .panel_search_log .bd a.t_1:before{content:'몬스터';}
 .panel_search_log .bd a.t_2:before{content:'아이템';}
 .panel_search_log .bd a.t_3:before{content:'글';}
 
+.map_area .empty:after{content:'괴물 없음';}
+
+.exchange_list .in_chart:before{content:'최근 동향';}
 .trend_info .title .server:before{content:'서버：';}
 .trend_info .user:after{content:'업데이트';}
 
@@ -52,6 +56,7 @@
 .attrpoint_ft .surplus:before{content:'남은 점수：';}
 
 .skill_filter .total .surplus:before{content:'남은 점수：';}
+.skill_filter .total .liusha:before{content:'시간의 모래：';}
 .skill_box + .empty_tip:before{content:'직업을 선택해주세요';}
 
 .copyskill_list .consume .range:before,

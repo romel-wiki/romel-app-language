@@ -13,14 +13,18 @@
 .home_comment li .title:before{content:'『';}
 .home_comment li .title:after{content:'』';}
 
-.pn_bottomleft .close:before{content:'閉じる';}
-.skill_box td.skill .close:before{content:'閉じる';}
+.pn_bottomleft .close:before,
+.skill_box td.skill .close:before,
 .tower_daita .close:before{content:'閉じる';}
+.pn_bottomleft.hide .close:before{content:'表示';}
 
 .panel_search_log .bd a.t_1:before{content:'モンスター';}
 .panel_search_log .bd a.t_2:before{content:'アイテム';}
 .panel_search_log .bd a.t_3:before{content:'記事';}
 
+.map_area .empty:after{content:'モンスターなし';}
+
+.exchange_list .in_chart:before{content:'最近の傾向';}
 .trend_info .title .server:before{content:'サーバ：';}
 .trend_info .user:after{content:'更新';}
 
@@ -52,6 +56,7 @@
 .attrpoint_ft .surplus:before{content:'残りのポイント：';}
 
 .skill_filter .total .surplus:before{content:'残り：';}
+.skill_filter .total .liusha:before{content:'时光流沙：';}
 .skill_box + .empty_tip:before{content:'職業を選択してください';}
 
 .copyskill_list .consume .range:before,
@@ -71,8 +76,8 @@
 .copyskill_list .consume .cd:after,
 .skill_box td.skill .attr .cd:after{content:'s';}
 
-.greedyshop_map i:after{content:'グリード商店';width:6em;margin-left:-3.5em;}
-.greedyshop_map em:after{content:'彼はここにいる';width:7em;margin-left:-4em;}
+.greedyshop_map i:after{content:'グリード商店';}
+.greedyshop_map em:after{content:'彼はここにいる';}
 
 .greedyshop_add .line:after,
 .greedyshop_log .line:after{content:'';}

@@ -16,6 +16,7 @@
 .pn_bottomleft .close:before,
 .skill_box td.skill .close:before,
 .tower_daita .close:before{content:'關閉';}
+.pn_bottomleft.hide .close:before{content:'顯示';}
 
 .panel_search_log .bd a.t_1:before{content:'魔物';}
 .panel_search_log .bd a.t_2:before{content:'道具';}

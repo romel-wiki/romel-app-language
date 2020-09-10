@@ -2,9 +2,9 @@
  * 计时器
  * http://romel.wiki/tool/timer
 **/
-switch (GLOBAL.userData.groupArea) {
+switch (GLOBAL.userData.language) {
   // 简体中文
-  case 0:
+  case 'cn':
     GLOBAL.language.theName = {
       skip: '筛选',
       merge: 'MVP / MINI 合并显示',
@@ -22,7 +22,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // 繁體中文
-  case 2:
+  case 'tw':
     GLOBAL.language.theName = {
       skip: '篩選',
       merge: 'MVP / MINI 合併顯示',
@@ -40,7 +40,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // Korean
-  case 3:
+  case 'ko':
     GLOBAL.language.theName = {
       skip: '필터',
       merge: 'MVP / MINI 함께 표시',
@@ -58,7 +58,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // Japanese
-  case 6:
+  case 'ja':
     GLOBAL.language.theName = {
       skip: 'フィルター',
       merge: 'MVP / MINI 合併',
@@ -72,6 +72,24 @@ switch (GLOBAL.userData.groupArea) {
       tipUnableNotify: '通知許可を取得できませんでした、開くことができません',
       tipNotTime: '時間がない',
       tipErrorTime: '誤った時間値'
+    };
+    break;
+
+  // Thai
+  case 'th':
+    GLOBAL.language.theName = {
+      skip: 'Filter',
+      merge: 'MVP / MINI Merge',
+      order: 'Last Time Order',
+      remindAudio: 'Audio Remind',
+      remindVibrate: 'Vibrate Remind',
+      remindNotify: 'Notify Remind',
+      remindTime: 'Notify at',
+      timeUnit: 'Second',
+      note: '<p>[Notify Remind] Note: </p><p>※ Need system to allow notification permission.</p>',
+      tipUnableNotify: 'Failed to get notification permission.',
+      tipNotTime: 'Lack Time',
+      tipErrorTime: 'Time Error'
     };
     break;
 

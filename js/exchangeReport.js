@@ -2,9 +2,9 @@
  * 交易所批量更新
  * http://romel.wiki/exchange/report
 **/
-switch (GLOBAL.userData.groupArea) {
+switch (GLOBAL.userData.language) {
   // 简体中文
-  case 0:
+  case 'cn':
     GLOBAL.language.theName = {
       itemPurple: '紫色材料',
       itemBlue: '蓝色材料',
@@ -18,7 +18,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // 繁體中文
-  case 2:
+  case 'tw':
     GLOBAL.language.theName = {
       itemPurple: '紫色材料',
       itemBlue: '藍色材料',
@@ -32,7 +32,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // Korean
-  case 3:
+  case 'ko':
     GLOBAL.language.theName = {
       itemPurple: '보라색 재료 (보스)',
       itemBlue: '파란색 재료 (고급)',
@@ -46,7 +46,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // Japanese
-  case 6:
+  case 'ja':
     GLOBAL.language.theName = {
       itemPurple: '紫材料',
       itemBlue: '青材料',
@@ -56,6 +56,20 @@ switch (GLOBAL.userData.groupArea) {
       cardSpecial: 'その他カード',
       reportIntro: '<p>1. 上のテンプレートをご選択ください；</a>；</p><p>2. 道具の単価を入力してください。更新したくないものを空白してください。</p>',
       reportNote: '<p>※ 提出した資料の真实性をご確認ください。噓の資料を見つければ、貴方の提出権限を禁止します。</p>'
+    };
+    break;
+
+  // Thai
+  case 'th':
+    GLOBAL.language.theName = {
+      itemPurple: 'Violet Material',
+      itemBlue: 'Blue Material',
+      cardBlue: 'Card Capsule - Blue',
+      cardGreen: 'Card Capsule - Green',
+      cardWhite: 'Card Capsule - White',
+      cardSpecial: 'Other Card',
+      reportIntro: '<p>1. Choose template, <a data-app="1" class="link red" href="' + GLOBAL.url.view + '/article/detail.html?id=78&backurl=' + GLOBAL.url.view + '/exchange/report.html">how to use?</a>；</p><p>2. Fill in the price, you can leave it blank.</p>',
+      reportNote: '<p>※ Please submit accurate information.</p>'
     };
     break;
 

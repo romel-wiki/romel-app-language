@@ -2,10 +2,12 @@
 /**
  * 繁体中文
  * ------------------------------ */
+$FileName = strstr(basename(__FILE__), '.', true);
+
 $Language = array(
   'appName' => '守愛百科',
   'appTitle' => '仙境傳說 守愛百科',
-  'fileName' => 'zh-tw',
+  'fileName' => $FileName,
   'languageName' => '繁體中文',
 
   // 通用类
@@ -19,14 +21,16 @@ $Language = array(
     'endData' => '已顯示全部',
     'history' => '歷史',
     'loadMore' => '加載更多',
+    'origin' => '獲取來源',
     'timeout' => '超時',
     'unit' => '件',
-    'moneyUnit' => '元',
+    'moneyUnit' => 'CNY',
     'condition' => '條件',
     'unrequired' => '不限',
 
     'article' => '文章',
     'card' => '卡片',
+    'detail' => '詳情',
     'draw' => '圖紙',
     'dropItem' => '掉落道具',
     'equip' => '裝備',
@@ -52,6 +56,10 @@ $Language = array(
     'unlock' => '解鎖',
     'unlockAttr' => '解鎖屬性',
     'viewpoint' => '景點',
+
+    // 地图
+    'midgarts' => '米德加爾特',
+    'asgard' => '阿斯加德',
 
     // 操作
     'readMake' => '製作材料',
@@ -94,7 +102,6 @@ $Language = array(
     'attr' => '屬性',
     'buyPrice' => '交易所價格',
     'gotoLogin' => '登錄',
-    'origin' => '獲取來源',
     'rank' => '品質',
 
     // 装备相关
@@ -174,7 +181,8 @@ $Language = array(
     'rune' => '神碑資料',
     'search' => '搜索',
     'skillSimulator' => '技能模擬器',
-    'timer' => 'MVP & MINI 計時器',
+    'skillSimulatorT4' => '四轉職業技能模擬器',
+    'timer' => 'MVP & Mini 計時器',
     'valhalla' => '遺跡線路',
     'valhallaEditor' => '遺跡線路編輯器',
     'xo' => '答題任務問答',
@@ -198,6 +206,7 @@ $Language = array(
     'equip' => '裝備',
     'feedback' => '反馈',
     'food' => '料理',
+    'furniture' => '家具',
     'greedyShop' => '貪婪商店',
     'hat' => '頭飾',
     'home' => '首頁',
@@ -210,27 +219,32 @@ $Language = array(
 
   // 搜索项名称
   'searchTitle' => array(
+    'adventureArea' => '冒險區域',
     'attr' => '屬性',
     'bookAttr' => '手冊屬性',
-    'refineStorage' => '精煉存入',
     'dropItem' => '掉落道具',
+    'isCompose' => '製作類',
+    'isEquipHigh' => '灌注類',
     'keywork' => '關鍵詞',
-    'myFavorite' => '我的收藏',
     'makeMaterial' => '製作材料',
+    'myFavorite' => '我的收藏',
     'name' => '名稱',
-    'upgradeMaterial' => '升級材料',
+    'origin' => '獲取來源',
     'plagiarismSkill' => '抄襲技能',
+    'rank' => '品質',
+    'refineStorage' => '精煉存入',
+    'tradeType' => '交易限制',
     'transformSkill' => '變身技能',
-    'adventureArea' => '冒險區域',
-    'isCompose' => '可以製作',
-    'isEquipHigh' => '可以灌注',
+    'upgradeMaterial' => '升級材料',
   ),
 
   // 筛选工具
   'filterOptions' => array(
-    'have' => '有',
     'normal' => '不限',
-    'not' => '無'
+    'have' => '有',
+    'not' => '無',
+    'canTrade' => '可交易',
+    'notTrade' => '不可交易',
   ),
 
   // JavaScript File

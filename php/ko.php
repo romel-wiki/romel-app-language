@@ -2,10 +2,12 @@
 /**
  * Korean
  * ------------------------------ */
+$FileName = strstr(basename(__FILE__), '.', true);
+
 $Language = array(
   'appName' => '수호백과',
   'appTitle' => '수호백과 - 라그나로크M Wiki',
-  'fileName' => 'kr',
+  'fileName' => $FileName,
   'languageName' => '한국어',
 
   // 通用类
@@ -19,6 +21,7 @@ $Language = array(
     'endData' => '더 이상 내용이 없습니다',
     'history' => '지난 기록',
     'loadMore' => '더 보기',
+    'origin' => '획득',
     'timeout' => '시간 초과',
     'unit' => '',
     'moneyUnit' => 'CNY',
@@ -27,6 +30,7 @@ $Language = array(
 
     'article' => '글',
     'card' => '카드',
+    'detail' => '상세정보',
     'draw' => '도면',
     'dropItem' => '드랍 아이템',
     'equip' => '장비',
@@ -52,6 +56,10 @@ $Language = array(
     'unlock' => '해제',
     'unlockAttr' => '해제 속성',
     'viewpoint' => '명소',
+
+    // 地图
+    'midgarts' => '미드가르드',
+    'asgard' => '아스가르드의',
 
     // 操作
     'readMake' => '제작재료',
@@ -94,7 +102,6 @@ $Language = array(
     'attr' => '속성',
     'buyPrice' => '거래소 가격',
     'gotoLogin' => '로그인',
-    'origin' => '획득',
     'rank' => '품질',
 
     // 装备相关
@@ -174,6 +181,7 @@ $Language = array(
     'rune' => '아스신의 비석',
     'search' => '검색',
     'skillSimulator' => '스킬 시뮬레이터',
+    'skillSimulatorT4' => '4차 스킬 시뮬레이터',
     'timer' => 'BOSS 타이머',
     'valhalla' => '길드 던전 (발할라)',
     'valhallaEditor' => '길드던전 (발할라) 길 편집',
@@ -198,6 +206,7 @@ $Language = array(
     'equip' => '장비',
     'feedback' => '건의',
     'food' => '요리',
+    'furniture' => '가구',
     'greedyShop' => '탐욕상점',
     'hat' => '의상',
     'home' => '홈',
@@ -210,27 +219,32 @@ $Language = array(
 
   // 搜索项名称
   'searchTitle' => array(
+    'adventureArea' => '모험 구역',
     'attr' => '속성',
     'bookAttr' => '수첩 속성',
-    'refineStorage' => '보관 제련',
     'dropItem' => '드랍 아이템',
-    'keywork' => '키워드',
-    'myFavorite' => '즐겨찾기',
-    'makeMaterial' => '제작재료',
-    'name' => '이름',
-    'upgradeMaterial' => '티어업 재료',
-    'plagiarismSkill' => '도작 스킬',
-    'transformSkill' => '변신 스킬',
-    'adventureArea' => '모험 구역',
     'isCompose' => '제작 가능',
     'isEquipHigh' => '합성 가능',
+    'keywork' => '키워드',
+    'makeMaterial' => '제작재료',
+    'myFavorite' => '즐겨찾기',
+    'name' => '이름',
+    'origin' => '획득',
+    'plagiarismSkill' => '도작 스킬',
+    'rank' => '품질',
+    'refineStorage' => '보관 제련',
+    'tradeType' => '거래소',
+    'transformSkill' => '변신 스킬',
+    'upgradeMaterial' => '티어업 재료',
   ),
 
   // 筛选工具
   'filterOptions' => array(
-    'have' => '포함',
     'normal' => '전부',
-    'not' => '없음'
+    'have' => '포함',
+    'not' => '없음',
+    'canTrade' => '거래 가능',
+    'notTrade' => '거래 불가',
   ),
 
   // JavaScript File

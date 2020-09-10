@@ -2,9 +2,9 @@
  * 建议及反馈
  * http://romel.wiki/feedback
 **/
-switch (GLOBAL.userData.groupArea) {
+switch (GLOBAL.userData.language) {
   // 简体中文
-  case 0:
+  case 'cn':
     GLOBAL.language.theName = {
       miss: '资料错误或遗漏',
       suggest: '建议',
@@ -15,7 +15,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // 繁體中文
-  case 2:
+  case 'tw':
     GLOBAL.language.theName = {
       miss: '資料錯誤或遺漏',
       suggest: '建議',
@@ -26,7 +26,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // Korean
-  case 3:
+  case 'ko':
     GLOBAL.language.theName = {
       miss: '정보 오류 또는 누락',
       suggest: '건의',
@@ -37,13 +37,24 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // Japanese
-  case 6:
+  case 'ja':
     GLOBAL.language.theName = {
       miss: '誤った情報',
       suggest: '提案',
       report: '報告書',
       infoPlaceholder: '',
       note: '<p>その他の質問については、お問い合わせください：ro@zhaiwuyu.com</p>'
+    };
+    break;
+
+  // Thai
+  case 'th':
+    GLOBAL.language.theName = {
+      miss: 'Wrong or missing data',
+      suggest: 'Suggest',
+      report: 'Report',
+      infoPlaceholder: 'Description',
+      note: '<p>If you have any other questions, please contact us at: ro@zhaiwuyu.com</p>'
     };
     break;
 

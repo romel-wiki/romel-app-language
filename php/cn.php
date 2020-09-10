@@ -2,10 +2,12 @@
 /**
  * 简体中文（默认）
  * ------------------------------ */
+$FileName = strstr(basename(__FILE__), '.', true);
+
 $Language = array(
   'appName' => '守爱百科',
   'appTitle' => '仙境传说 守爱百科',
-  'fileName' => 'zh-cn',
+  'fileName' => $FileName,
   'languageName' => '简体中文',
 
   // 通用类
@@ -19,6 +21,7 @@ $Language = array(
     'endData' => '已显示全部',
     'history' => '历史',
     'loadMore' => '加载更多',
+    'origin' => '获取来源',
     'timeout' => '超时',
     'unit' => '件',
     'moneyUnit' => '元',
@@ -27,6 +30,7 @@ $Language = array(
 
     'article' => '文章',
     'card' => '卡片',
+    'detail' => '详情',
     'draw' => '图纸',
     'dropItem' => '掉落道具',
     'equip' => '装备',
@@ -52,6 +56,10 @@ $Language = array(
     'unlock' => '解锁',
     'unlockAttr' => '解锁属性',
     'viewpoint' => '景点',
+
+    // 地图
+    'midgarts' => '米德加尔特',
+    'asgard' => '阿斯加德',
 
     // 操作
     'readMake' => '制作材料',
@@ -94,7 +102,6 @@ $Language = array(
     'attr' => '属性',
     'buyPrice' => '交易所价格',
     'gotoLogin' => '登录',
-    'origin' => '获取来源',
     'rank' => '品质',
 
     // 装备相关
@@ -174,7 +181,8 @@ $Language = array(
     'rune' => '神碑资料',
     'search' => '搜索',
     'skillSimulator' => '技能模拟器',
-    'timer' => 'MVP & MINI 计时器',
+    'skillSimulatorT4' => '四转职业技能模拟器',
+    'timer' => 'MVP & Mini 计时器',
     'valhalla' => '遗迹线路',
     'valhallaEditor' => '遗迹线路编辑器',
     'xo' => '答题任务问答',
@@ -198,6 +206,7 @@ $Language = array(
     'equip' => '装备',
     'feedback' => '反馈',
     'food' => '料理',
+    'furniture' => '家具',
     'greedyShop' => '贪婪商店',
     'hat' => '头饰',
     'home' => '首页',
@@ -210,27 +219,32 @@ $Language = array(
 
   // 搜索项名称
   'searchTitle' => array(
+    'adventureArea' => '冒险区域',
     'attr' => '属性',
     'bookAttr' => '手册属性',
-    'refineStorage' => '精炼存入',
     'dropItem' => '掉落道具',
+    'isCompose' => '制作类',
+    'isEquipHigh' => '灌注类',
     'keywork' => '关键词',
-    'myFavorite' => '我的收藏',
     'makeMaterial' => '制作材料',
+    'myFavorite' => '我的收藏',
     'name' => '名称',
-    'upgradeMaterial' => '升级材料',
+    'origin' => '获取来源',
     'plagiarismSkill' => '抄袭技能',
+    'rank' => '品质',
+    'refineStorage' => '精炼存入',
+    'tradeType' => '交易限制',
     'transformSkill' => '变身技能',
-    'adventureArea' => '冒险区域',
-    'isCompose' => '可以制作',
-    'isEquipHigh' => '可以灌注',
+    'upgradeMaterial' => '升级材料',
   ),
 
   // 筛选工具
   'filterOptions' => array(
-    'have' => '有',
     'normal' => '不限',
-    'not' => '无'
+    'have' => '有',
+    'not' => '无',
+    'canTrade' => '可交易',
+    'notTrade' => '不可交易',
   ),
 
   // JavaScript File

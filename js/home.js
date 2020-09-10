@@ -2,9 +2,9 @@
  * 首页
  * http://romel.wiki/
 **/
-switch (GLOBAL.userData.groupArea) {
+switch (GLOBAL.userData.language) {
   // 简体中文
-  case 0:
+  case 'cn':
     GLOBAL.language.homeTitle = {
       achievement: '成就',
       activitie: '活动看板',
@@ -30,6 +30,7 @@ switch (GLOBAL.userData.groupArea) {
       prtMaze: '迷藏森林',
       rune: '神碑资料',
       skill: '技能模拟器',
+      skill4: '四转技能',
       starMonster: '星怪入侵',
       started: '入门指南',
       timer: '计时器',
@@ -39,7 +40,8 @@ switch (GLOBAL.userData.groupArea) {
 
       linkAbout: '关于守爱百科',
       linkContact: '联系我们 & 合作',
-      linkFeedback: '建议及反馈'
+      linkFeedback: '建议及反馈',
+      linkMember: '会员功能介绍'
     };
 
     GLOBAL.language.theName = {
@@ -57,7 +59,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // 繁體中文
-  case 2:
+  case 'tw':
     GLOBAL.language.homeTitle = {
       achievement: '成就',
       activitie: '活動看板',
@@ -83,6 +85,7 @@ switch (GLOBAL.userData.groupArea) {
       prtMaze: '迷藏森林',
       rune: '神碑資料',
       skill: '技能模擬器',
+      skill4: '四轉技能',
       starMonster: '星怪入侵',
       started: '入門指南',
       timer: '計時器',
@@ -92,7 +95,8 @@ switch (GLOBAL.userData.groupArea) {
 
       linkAbout: '關於守愛百科',
       linkContact: '聯繫我們 & 合作',
-      linkFeedback: '建議及反饋'
+      linkFeedback: '建議及反饋',
+      linkMember: '會員功能介紹'
     };
 
     GLOBAL.language.theName = {
@@ -110,7 +114,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // Korean
-  case 3:
+  case 'ko':
     GLOBAL.language.homeTitle = {
       achievement: '업적',
       activitie: '이벤트',
@@ -136,6 +140,7 @@ switch (GLOBAL.userData.groupArea) {
       prtMaze: '미로숲',
       rune: '아스신의 비석',
       skill: '스킬 시뮬레이터',
+      skill4: '4차 스킬',
       starMonster: '별 몬스터 출현',
       started: '초보 가이드',
       timer: 'BOSS 타이머',
@@ -145,7 +150,8 @@ switch (GLOBAL.userData.groupArea) {
 
       linkAbout: '수호백과에 관하여',
       linkContact: '연락처 및 제휴',
-      linkFeedback: '건의하기'
+      linkFeedback: '건의하기',
+      linkMember: '회원 소개'
     };
 
     GLOBAL.language.theName = {
@@ -163,7 +169,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // Japanese
-  case 6:
+  case 'ja':
     GLOBAL.language.homeTitle = {
       achievement: '実績',
       activitie: '掲示板',
@@ -189,6 +195,7 @@ switch (GLOBAL.userData.groupArea) {
       prtMaze: '迷宮の森',
       rune: 'アース神の石碑',
       skill: 'スキル',
+      skill4: '4次 スキル',
       starMonster: '★モンスター侵入',
       started: '入門ガイド',
       timer: 'タイマー',
@@ -198,7 +205,8 @@ switch (GLOBAL.userData.groupArea) {
 
       linkAbout: 'Romel Wiki について',
       linkContact: 'お問い合わせ & 協力',
-      linkFeedback: '提案とフィードバック'
+      linkFeedback: '提案とフィードバック',
+      linkMember: '会員について'
     };
 
     GLOBAL.language.theName = {
@@ -212,6 +220,61 @@ switch (GLOBAL.userData.groupArea) {
       change: '交換',
       todayOnlyProgress: '進行中のみ表示',
       articleMore: 'もっと'
+    };
+    break;
+
+  // Thai
+  case 'th':
+    GLOBAL.language.homeTitle = {
+      achievement: 'Achievement',
+      activitie: 'Activity',
+      attrPoint: 'Attr Simulator',
+      being: 'Being',
+      broadcast: 'Broadcast',
+      card: 'Card',
+      copySkill: 'Plagiarism Skill',
+      endlessTower: 'Endless Tower',
+      equip: 'Equip',
+      exchange: 'Exchange',
+      food: 'Food',
+      furniture: 'Furniture',
+      gem: 'Gem',
+      greedyShop: 'Greedy Shop',
+      guild: 'Guild',
+      hat: 'Headwear',
+      job: 'Job',
+      log: 'News:',
+      map: 'Map',
+      monster: 'Monster',
+      pet: 'Pet',
+      prtMaze: 'Labyrinth Forest',
+      rune: 'Aeisr Monument',
+      skill: 'Skill Simulator',
+      skill4: 'T4 Skill',
+      starMonster: 'Star Monster Invasion',
+      started: 'Getting Started',
+      timer: 'Timer',
+      weekBoss: 'Week BOSS',
+      valhalla: 'Valhalla',
+      xo: 'XO Answer',
+
+      linkAbout: 'About',
+      linkContact: 'Contact',
+      linkFeedback: 'Feedback',
+      linkMember: 'About Member'
+    };
+
+    GLOBAL.language.theName = {
+      after: ' After',
+      create: 'Create',
+      day: ' Day',
+      hour: ' Hour',
+      minute: ' Minute',
+      start: ' Start',
+      end: ' End',
+      change: ' Change',
+      todayOnlyProgress: 'Show only in progress',
+      articleMore: 'More'
     };
     break;
 
@@ -242,6 +305,7 @@ switch (GLOBAL.userData.groupArea) {
       prtMaze: 'Labyrinth Forest',
       rune: 'Aeisr Monument',
       skill: 'Skill Simulator',
+      skill4: 'T4 Skill',
       starMonster: 'Star Monster Invasion',
       started: 'Getting Started',
       timer: 'Timer',
@@ -251,7 +315,8 @@ switch (GLOBAL.userData.groupArea) {
 
       linkAbout: 'About',
       linkContact: 'Contact',
-      linkFeedback: 'Feedback'
+      linkFeedback: 'Feedback',
+      linkMember: 'About Member'
     };
 
     GLOBAL.language.theName = {

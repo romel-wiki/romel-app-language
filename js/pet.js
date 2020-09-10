@@ -4,9 +4,9 @@
  * http://romel.wiki/pet/adventure
  * http://romel.wiki/pet/work
 **/
-switch (GLOBAL.userData.groupArea) {
+switch (GLOBAL.userData.language) {
   // 简体中文
-  case 0:
+  case 'cn':
     GLOBAL.language.theName = {
       catchItem: '捕捉道具',
       compose: '融合素材',
@@ -25,7 +25,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // 繁體中文
-  case 2:
+  case 'tw':
     GLOBAL.language.theName = {
       catchItem: '捕捉道具',
       compose: '融合素材',
@@ -44,7 +44,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // Korean
-  case 3:
+  case 'ko':
     GLOBAL.language.theName = {
       catchItem: '포획 아이템',
       compose: '펫 융합',
@@ -63,7 +63,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // Japanese
-  case 6:
+  case 'ja':
     GLOBAL.language.theName = {
       catchItem: '捕獲道具',
       compose: 'ペット融合',
@@ -78,6 +78,25 @@ switch (GLOBAL.userData.groupArea) {
       workMaxReward: '最大獲得',
       workUnlock: '条件',
       workLimit: '参加不可',
+    };
+    break;
+
+  // Thai
+  case 'th':
+    GLOBAL.language.theName = {
+      catchItem: 'Captured Items',
+      compose: 'Compose',
+      minLevel: 'Min Level',
+      unit: '',
+
+      adventureArea: 'Adventure Area',
+      adventureBox: 'Box',
+      adventureDispatch: 'Dispatch',
+
+      workFrequency: 'Frequency',
+      workMaxReward: 'Max Box',
+      workUnlock: 'Unlock',
+      workLimit: 'Limit',
     };
     break;
 

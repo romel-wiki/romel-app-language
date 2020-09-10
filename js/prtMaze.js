@@ -2,9 +2,9 @@
  * 迷藏森林导航
  * http://romel.wiki/tool/prtMaze
 **/
-switch (GLOBAL.userData.groupArea) {
+switch (GLOBAL.userData.language) {
   // 简体中文
-  case 0:
+  case 'cn':
     GLOBAL.language.theName = {
       note: '说明：先选择起点，再选择终点。',
       mapArea: '区域',
@@ -25,7 +25,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // 繁體中文
-  case 2:
+  case 'tw':
     GLOBAL.language.theName = {
       note: '說明：先選擇起點，再選擇終點。',
       mapArea: '區域',
@@ -46,7 +46,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // Korean
-  case 3:
+  case 'ko':
     GLOBAL.language.theName = {
       note: '사용법：시작 지점을 클릭한 뒤, 목적 지점을 클릭하세요.',
       mapArea: '구역',
@@ -67,7 +67,7 @@ switch (GLOBAL.userData.groupArea) {
     break;
 
   // Japanese
-  case 6:
+  case 'ja':
     GLOBAL.language.theName = {
       note: '説明：最初に始点を、次に終点を選択します。',
       mapArea: 'エリア',
@@ -84,6 +84,27 @@ switch (GLOBAL.userData.groupArea) {
       wilow: 'ウィロー',
       yoyo: 'ヨーヨー',
       bee: 'ホーネット'
+    };
+    break;
+
+  // Thai
+  case 'th':
+    GLOBAL.language.theName = {
+      note: 'Description: First select the starting point and then the ending point.',
+      mapArea: 'Area',
+      monsterArea: 'Monster',
+      argiope: 'Argiope',
+      chonchon: 'Chon Chon',
+      creamy: 'Creamy',
+      fabre: 'Fabre',
+      lunatic: 'Lunatic',
+      mandragora: 'Mandragora',
+      rocker: 'Rocker',
+      poring: 'Poring',
+      wolf: 'Wolf',
+      wilow: 'Willow',
+      yoyo: 'Yoyo',
+      bee: 'Hornet'
     };
     break;
 
