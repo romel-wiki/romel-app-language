@@ -9,5 +9,5 @@ tw | 繁体中文
 en | English
 ko | 한국어
 ja | 日本語
-th | ภาษาไทย (Processing)
+th | ภาษาไทย (Suspended)
 
